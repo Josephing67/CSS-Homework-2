@@ -6,10 +6,20 @@
 }
 .left   {
     color: lightgray;
+    display: table;
 }
 .dummyimage {
-    background-color: blue;
+    background-image: url(/CSS-Homework-2/images/dummyimage.png);
+    background-image: url(https://dummyimage.com/300);
+    width: 180px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 .middle {
     color: beige;
+    
+    display: table-column;
 }
