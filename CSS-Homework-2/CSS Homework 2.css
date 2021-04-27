@@ -1,3 +1,15 @@
 .header {
     color: aquamarine;
 }
+.navigation {
+    color: gray;
+}
+.left   {
+    color: lightgray;
+}
+.dummyimage {
+    background-color: blue;
+}
+.middle {
+    color: beige;
+}
