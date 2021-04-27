@@ -1,25 +1,100 @@
+body    {
+     margin:0px; 
+}
 .header {
-    color: aquamarine;
+    color: white;
+    display: block;
+    text-align: center;
+    background: #1abc9c;
+    padding: 80.5px;
+}
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2  {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif
+}
+h3  {
+    font-size: 18.72;
+    font-family: Arial, Helvetica, sans-serif
+}
+h5  {
+    font-size: 13.28px;
+    font-family: Arial, Helvetica, sans-serif
+}
+p   {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navigation {
-    color: gray;
+  display: block;
+  background-color: #333;
+  padding-bottom: 47px;
+  color: white;
+}
+.navigation a   {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation a.right {
+  float: right;
+}
+.navigation a:hover {
+  background-color: gainsboro;
+  color: black;
+}
+section    {
+    columns: 2;
+    display: flex;
 }
 .left   {
-    color: lightgray;
+    color:black;
+    background-color: lightgray; 
     display: table;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 45px;
 }
 .dummyimage {
-    background-image: url(/CSS-Homework-2/images/dummyimage.png);
-    background-image: url(https://dummyimage.com/300);
-    width: 180px;
-    padding: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    background-image: url("./images/dummyimage.png");
+    width: 106%;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h5{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.image2 {
+    background-image: url("./images/dummyimage.png");
+    width: 219%;
+    margin-top: 17px;
+}
+.image3 {
+    background-image: url("./images/dummyimage.png");
+    width: 219%;
+}
+.pararight  {
+   width: 219%;
+   margin-bottom: 21px;
 }
 .middle {
-    color: beige;
-    
-    display: table-column;
+    color: black;
+    display: table-cell;
+    padding-left: 20px;
+    margin-right: 525px;
+    }
+.footer {
+    padding-top: 50px;
+    text-align: center;
+    background:gainsboro;
 }
